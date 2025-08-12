@@ -5,9 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomeFinder</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/779bd03c20.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        "public-sans": ["Public Sans", "sans-serif"],
+                    },
+                    colors: {
+                        brandwhite: "#FCFCFC",
+                        deeppurple: "#4D3A74",
+                        softpurple: "#615183",
+                        lightpurple: "#766993",
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
-<body>
+<body class="max-w-7xl mx-auto font-public-sans">
+
+    <header>
+
+
+        <div class="navbar bg-base-100 shadow-sm">
+            <div class="navbar-start">
+                <a href="index.html"><img class="w-40" src="assets/images/logo-main.png" alt="logo"></a>
+
+                <ul class="menu menu-horizontal px-1 font-medium hidden lg:flex">
+                    <li class="hover:text-white"><a>Buy</a></li>
+                    <li><a>Rent</a></li>
+                    <li><a>Sell</a></li>
+                    <li><a>Mortgages</a></li>
+                    <li><a>Find an Agents</a></li>
+                </ul>
+            </div>
+
+
+
+            <div class="navbar-end">
+                <a class="btn">Button</a>
+            </div>
+        </div>
+
+    </header>
 
 </body>
 
