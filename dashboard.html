@@ -53,7 +53,9 @@
                         <li class="bg-deeppurple text-white p-1 rounded-md mb-1"><a>Rent</a></li>
                         <li class="bg-deeppurple text-white p-1 rounded-md mb-1"><a>Sell</a></li>
 
-
+                        <li><a href="signup.html"
+                                class="btn bg-deeppurple text-white font-bold hover:bg-softpurple  hover:text-white hover:transition duration-200">Sign
+                                Up</a></li>
                     </ul>
                 </div>
 
@@ -84,83 +86,32 @@
                     </label>
 
 
-                    <div class="space-x-2 flex justify-around items-center">
-
-                        <a href="login.html"
-                            class="btn bg-deeppurple text-white font-bold hover:bg-softpurple hover:text-white hover:transition duration-200 lg:flex hidden">Sign
-                            in</a>
-
-                        <a href="signup.html"
-                            class="btn bg-deeppurple text-white font-bold hover:bg-softpurple  hover:text-white hover:transition duration-200">Sign
-                            Up</a>
+                    <div class="dropdown dropdown-end">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                            <div class="w-10 rounded-full">
+                                <img alt="Tailwind CSS Navbar component"
+                                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <li>
+                                <a class="justify-between">
+                                    Profile
+                                    <span class="badge">New</span>
+                                </a>
+                            </li>
+                            <li><a>Settings</a></li>
+                            <li><a href="index.html">Logout</a></li>
+                        </ul>
                     </div>
+
                 </div>
 
 
             </div>
+
     </header>
-
-    <!-- Banner section -->
-
-    <section>
-
-        <div class="mt-16">
-            <h2 class="text-3xl font-bold text-center">Welcome back</h2>
-        </div>
-
-        <div class="bg-white drop-shadow-lg shadow-lg rounded-lg w-11/12 lg:w-1/2 mx-auto p-6 lg:p-8 mt-8 space-y-6">
-
-            <div class="flex justify-center items-center gap-5 mt-3 ">
-                <label class="input input-lg validator drop-shadow-md shadow-md bg-[#F2F2F2] outline-none w-96">
-                    <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
-                            stroke="currentColor">
-                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="12" cy="7" r="4"></circle>
-                        </g>
-                    </svg>
-                    <input class="text-sm" type="text" required placeholder="Username or Email"
-                        pattern="[A-Za-z][A-Za-z0-9\-]*" minlength="3" maxlength="30"
-                        title="Only letters, numbers or dash" />
-                </label>
-            </div>
-
-            <div class="flex justify-center items-center">
-
-                <label class="input input-lg validator drop-shadow-md shadow-md bg-[#F2F2F2] outline-none w-96">
-                    <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
-                            stroke="currentColor">
-                            <path
-                                d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z">
-                            </path>
-                            <circle cx="16.5" cy="7.5" r=".5" fill="currentColor"></circle>
-                        </g>
-                    </svg>
-                    <input class="text-sm" type="password" required placeholder="Password" minlength="8"
-                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                        title="Must be more than 8 characters, including number, lowercase letter, uppercase letter" />
-                </label>
-                <p class="validator-hint hidden">
-                    Must be more than 8 characters, including
-                    <br />At least one number <br />At least one lowercase letter <br />At least one uppercase letter
-                </p>
-            </div>
-
-            <div class="lg:pl-40">
-                <a class="text-black/65 text-sm hover:text-emerald-700" href="">Forgotten password?</a>
-            </div>
-
-
-            <div class="flex justify-center items-center">
-                <a href="dashboard.html"><button class="btn bg-deeppurple p-5 text-white">Login</button></a>
-            </div>
-
-            <div class="flex justify-center items-center">
-                <a class="text-black/65 text-sm hover:text-emerald-700" href="signup.html">Don't have an account?</a>
-            </div>
-        </div>
-    </section>
 
 </body>
 
