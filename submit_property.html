@@ -107,7 +107,6 @@
             <fieldset class="fieldset">
                 <legend class="fieldset-legend text-sm">Address</legend>
                 <input type="text" class="input  lg:w-96 focus:border-none" placeholder="Enter  property address" />
-
             </fieldset>
 
             <fieldset class="fieldset">
@@ -124,7 +123,6 @@
 
 
             <div class="flex justify-start items-center gap-5">
-
                 <div>
                     <fieldset class="fieldset">
                         <legend class="fieldset-legend text-sm">Size (sq ft)</legend>
@@ -133,18 +131,55 @@
                     </fieldset>
                 </div>
 
-
                 <div>
                     <fieldset class="fieldset">
                         <legend class="fieldset-legend text-sm">Bedrooms</legend>
                         <input type="number" class="input focus:border-none" placeholder="Enter  size" />
-
                     </fieldset>
                 </div>
-
-
             </div>
 
+            <div>
+                <fieldset class="fieldset">
+                    <legend class="fieldset-legend text-sm">Bathrooms</legend>
+                    <input type="number" class="input  lg:w-96 focus:border-none"
+                        placeholder="Enter number of bathrooms" />
+                </fieldset>
+            </div>
+
+
+            <div>
+                <fieldset class="fieldset">
+                    <legend class="fieldset-legend text-sm">Upload Images</legend>
+                    <input type="file" class="file-input file-input-primary lg:w-96 border border-black/25 " />
+                </fieldset>
+
+                <fieldset class="fieldset mt-3">
+                    <legend class="fieldset-legend text-sm">Price</legend>
+                    <input type="number" class="input lg:w-96 focus:border-none" placeholder="Enter  listing price" />
+                </fieldset>
+            </div>
+        </div>
+
+        <!-- <div class="flex justify-center lg:justify-end  items-center mt-5">
+            <a class="btn bg-[#4D3A74] text-white " href="#">Submit Property</a>
+        </div> -->
+
+        <div class="flex justify-center lg:justify-end  items-center mt-5">
+            <!-- Open the modal using ID.showModal() method -->
+            <button class="btn bg-[#4D3A74] text-white" onclick="my_modal_1.showModal()">Submit Property</button>
+            <dialog id="my_modal_1" class="modal">
+                <div class="modal-box">
+                    <h3 class="text-lg font-bold">Thank You!</h3>
+                    <p class="py-4">Your property has been submitted successfully</p>
+                    <div class="modal-action">
+                        <form method="dialog">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn">Close</button>
+                        </form>
+                    </div>
+                </div>
+            </dialog>
         </div>
     </section>
 
