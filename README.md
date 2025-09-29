@@ -9,7 +9,7 @@
 ![](https://badgen.net/badge/color/css/blue?label=)
 ![](https://badgen.net/badge/color/javascript/yellow?label=)
 
-<img src ="./images/pictures/project.png" width="50%">
+<img src ="./assets/images/logo.png" width="50%">
 
 </div>
 
