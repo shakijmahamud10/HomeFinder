@@ -15,7 +15,7 @@
 
 ## 💡 Overview
 
-Mission 2025 is a modern and dynamic web platform designed to deliver innovative digital solutions with speed and simplicity. Built using the latest web technologies, it focuses on creating responsive, user-friendly, and visually appealing experiences. Key highlights include:
+HomeFinder is a modern and dynamic web platform designed to deliver innovative digital solutions with speed and simplicity. Built using the latest web technologies, it focuses on creating responsive, user-friendly, and visually appealing experiences. Key highlights include:
 
 - Fully responsive design for all devices.
 - Optimized performance for faster loading times.
@@ -39,8 +39,8 @@ Whether you're a solo developer or part of a large team, FixHub is the perfect t
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/shakijmahamud10/mission-2025
-   cd mission-2025
+   git clone https://github.com/shakijmahamud10/repo-name
+   cd repo-name
    ```
 
 ## 📖 Usage
