@@ -1,6 +1,6 @@
 <div align="center">
-<a href="https://github.com/Sumonta056/FixHub-Issue-Tracker-Website" target="blank">
-<img src="./images/illustrators/illustrator-1.png" width="180" alt="Logo" />
+
+<!-- <img src="./images/illustrators/illustrator-1.png" width="180" alt="Logo" /> -->
 </a>
 
 <h2> Project Name : HomeFinder </h2>
