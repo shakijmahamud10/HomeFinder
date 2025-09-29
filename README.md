@@ -39,8 +39,8 @@ Whether you're a solo developer or part of a large team, FixHub is the perfect t
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/shakijmahamud10/repo-name
-   cd repo-name
+   git clone https://github.com/shakijmahamud10/HomeFinder
+   cd HomeFinder
    ```
 
 ## 📖 Usage
